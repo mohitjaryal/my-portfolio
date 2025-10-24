@@ -38,7 +38,7 @@ I'm a **developer** who loves building web apps, learning new technologies, and 
 ## 🌎 Connect With Me
 
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000?style=flat&logo=vercel)](https://yourwebsite.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourusername)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/mohitjaryal)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter)](https://twitter.com/yourusername)
 
 ---
