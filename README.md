@@ -6,7 +6,7 @@ I'm a **developer** who loves building web apps, learning new technologies, and 
 
 ## 🚀 About Me
 
-- 💻 I work with **JavaScript, React, Node.js**, and **Python**
+- 💻 I work with **JavaScript, React, Node.js**, **C++** and **Express**
 - 🌱 Currently learning **Next.js** and **TypeScript**
 - 🔧 I enjoy building **clean, fast, and responsive** websites
 - 🎯 Goal: Keep learning and contribute to open-source
