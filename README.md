@@ -31,7 +31,7 @@ I'm a **developer** who loves building web apps, learning new technologies, and 
 
 ## 📊 GitHub Stats
 
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)
+![mohitjaryal](https://github-readme-stats.vercel.app/api?username=mohitjaryal&show_icons=true&theme=tokyonight)
 
 ---
 
