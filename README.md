@@ -24,7 +24,7 @@ I'm a **developer** who loves building web apps, learning new technologies, and 
 ## 📂 Featured Projects
 
 - 🌐 [**Project 1**](https://github.com/yourusername/project1) 
-- 💬 [**Project 2**](https://github.com/yourusername/project2) — Short description here  
+- 💬 [**Project 2**](https://github.com/yourusername/project2)   
 - ⚙️ [**Project 3**](https://github.com/yourusername/project3) — Short description here  
 
 ---
