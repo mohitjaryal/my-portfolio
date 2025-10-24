@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm Mohit 
 
 I'm a **developer** who loves building web apps, learning new technologies, and turning ideas into reality.
 
