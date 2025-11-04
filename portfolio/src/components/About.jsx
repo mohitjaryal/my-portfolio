@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden"
+    >
       {/* subtle background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(124,58,237,0.15),transparent_60%)]" />
 
@@ -28,16 +31,26 @@ export default function About() {
           >
             <p className="mb-5 text-lg">
               Hey there! I'm{" "}
-              <span className="font-semibold text-purple-400">Your Name</span>, a passionate{" "}
-              <span className="text-blue-400">Frontend / Fullstack Developer</span> who loves
-              crafting sleek, fast, and immersive digital experiences. I turn complex ideas into elegant, user-friendly web solutions.
+              <span className="font-semibold text-purple-400">
+                Mohit Jaryal
+              </span>
+              , a passionate{" "}
+              <span className="text-blue-400">
+                Frontend / Fullstack Developer
+              </span>{" "}
+              who loves building impactful digital solutions that solve
+              real-world problems. I focus on turning challenges into intuitive,
+              efficient, and meaningful web experiences that make a difference.
             </p>
+
             <p className="mb-5 text-gray-400">
-              My focus lies in building interactive, accessible, and performant apps using technologies like{" "}
+              My focus lies in building interactive, accessible, and performant
+              apps using technologies like{" "}
               <span className="text-cyan-400">React</span>,{" "}
               <span className="text-cyan-400">Vite</span>, and{" "}
-              <span className="text-cyan-400">Tailwind CSS</span>. I enjoy collaborating with creative teams
-              and bringing ideas to life through clean, reusable code.
+              <span className="text-cyan-400">Tailwind CSS</span>. I enjoy
+              collaborating with creative teams and bringing ideas to life
+              through clean, reusable code.
             </p>
             <ul className="list-disc pl-6 text-gray-400 space-y-2">
               <li>⚡ 3+ years crafting responsive web apps</li>
@@ -71,7 +84,9 @@ export default function About() {
               </p>
               <p>
                 <strong className="text-gray-200">⚙️ Tools I Love:</strong>{" "}
-                <span className="text-gray-400">VSCode, Git, Figma, Postman</span>
+                <span className="text-gray-400">
+                  VSCode, Git, Figma, Postman
+                </span>
               </p>
             </div>
             <div className="mt-6 text-sm text-gray-400">
