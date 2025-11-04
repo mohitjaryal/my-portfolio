@@ -31,7 +31,7 @@ const PROJECTS = [
     desc: "A secure and efficient password generator built using Python that creates strong, random passwords instantly.",
     img: passgenImg,
     repo: "https://github.com/mohitjaryal/passGenrator",
-    tech: ["Python", "Security", "CLI Tool"],
+    tech: ["Python"],
   },
 ];
 
