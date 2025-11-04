@@ -54,7 +54,6 @@ export default function Hero() {
             transition={{ delay: 1 }}
             className="mt-8 text-gray-400 text-sm"
           >
-            💼 Open to freelance & full-time opportunities.
           </motion.div>
         </motion.div>
 
