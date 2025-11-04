@@ -58,6 +58,13 @@ export default function Navbar() {
           >
             <FaGithub size={22} />
           </a>
+
+            <a
+            href="https://x.com/mohitjaryal04"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden md:inline text-gray-300 hover:text-cyan-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
+          >
           <a
             href="https://linkedin.com/in/mohitjaryal"
             target="_blank"
@@ -66,12 +73,6 @@ export default function Navbar() {
           >
             <FaLinkedin size={22} />
           </a>
-          <a
-            href="https://x.com/mohitjaryal04"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden md:inline text-gray-300 hover:text-cyan-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
-          >
             <FaXTwitter size={22} />
           </a>
         </div>
