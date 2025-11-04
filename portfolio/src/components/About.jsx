@@ -36,26 +36,17 @@ export default function About() {
               </span>
               , a passionate{" "}
               <span className="text-blue-400">
-                Frontend / Fullstack Developer
+                Developer
               </span>{" "}
               who loves building impactful digital solutions that solve
               real-world problems. I focus on turning challenges into intuitive,
               efficient, and meaningful web experiences that make a difference.
             </p>
 
-            <p className="mb-5 text-gray-400">
-              My focus lies in building interactive, accessible, and performant
-              apps using technologies like{" "}
-              <span className="text-cyan-400">React</span>,{" "}
-              <span className="text-cyan-400">Vite</span>, and{" "}
-              <span className="text-cyan-400">Tailwind CSS</span>. I enjoy
-              collaborating with creative teams and bringing ideas to life
-              through clean, reusable code.
-            </p>
             <ul className="list-disc pl-6 text-gray-400 space-y-2">
-              <li>⚡ 3+ years crafting responsive web apps</li>
-              <li>💻 Strong grasp of React, Node.js, and API integrations</li>
-              <li>🎨 Obsessed with great UI/UX and smooth animations</li>
+              <li>🌍 Believe technology should create impact — not just pixels on a screen</li>
+              <li>🧠 Constantly learning, growing, and challenging myself to think bigger</li>
+              <li>🔥 Thrive on challenges — from cool side projects to real-world impact</li>
             </ul>
           </motion.div>
 
@@ -72,11 +63,7 @@ export default function About() {
             <div className="text-gray-300 space-y-3">
               <p>
                 <strong className="text-gray-200">📍 Location:</strong>{" "}
-                <span className="text-gray-400">Your City, Country</span>
-              </p>
-              <p>
-                <strong className="text-gray-200">🎓 Education:</strong>{" "}
-                <span className="text-gray-400">Your Degree — University</span>
+                <span className="text-gray-400">Chandigarh, India</span>
               </p>
               <p>
                 <strong className="text-gray-200">🌐 Languages:</strong>{" "}
@@ -85,12 +72,12 @@ export default function About() {
               <p>
                 <strong className="text-gray-200">⚙️ Tools I Love:</strong>{" "}
                 <span className="text-gray-400">
-                  VSCode, Git, Figma, Postman
+                  VSCode, Git,Github
                 </span>
               </p>
             </div>
             <div className="mt-6 text-sm text-gray-400">
-              Always exploring new tech and trends to stay ahead 🚀
+              ✨ The journey never ends — just new problems are waiting to be solved.
             </div>
           </motion.div>
         </div>
