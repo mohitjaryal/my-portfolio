@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import mohitImg from "../images/mohit.png";
 
 export default function Hero() {
   return (
@@ -72,7 +73,7 @@ export default function Hero() {
 
             <div className="relative rounded-3xl border border-gray-800 bg-gradient-to-b from-gray-900/70 to-gray-950/80 backdrop-blur-md overflow-hidden shadow-[0_0_40px_rgba(124,58,237,0.2)] hover:shadow-[0_0_60px_rgba(124,58,237,0.4)] transition-all duration-500 transform group-hover:-translate-y-1">
               <img
-                src="https://via.placeholder.com/450x450?text=Your+Photo"
+               src={mohitImg}
                 alt="Your Portrait"
                 className="w-80 h-80 object-cover rounded-3xl grayscale hover:grayscale-0 transition-all duration-700"
               />
