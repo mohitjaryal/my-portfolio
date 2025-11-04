@@ -1,39 +1,48 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// 🧠 Add your real projects here
+// ✅ Import images from src/images folder
+import portfolioImg from "../images/portfolio.png";
+import qrappImg from "../images/qrapp.png";
+import passgenImg from "../images/passgenImg.png";
+
 const PROJECTS = [
   {
     id: "p1",
     title: "Portfolio Website",
     desc: "My personal portfolio built with React, TailwindCSS, and Vite — showcasing my skills, projects, and contact form via EmailJS.",
-    img: "/images/portfolio.png", // put image inside /public/images folder
+    img: portfolioImg,
     repo: "https://github.com/mohitjaryal/my-portfolio",
-    live: "https://your-portfolio-domain.com", // site link
+    live: "https://your-portfolio-domain.com",
     tech: ["React", "Tailwind", "Vite"],
   },
   {
     id: "p2",
-    title: "QR Based Attendence System",
-    desc: "",
-    img: "/images/ecommerce.png",
+    title: "QR Based Attendance System",
+    desc: "A smart web app that uses QR codes for real-time attendance tracking, built with React, Node.js, and Firebase.",
+    img: qrappImg,
     repo: "https://github.com/mohitjaryal/hackathon-cgc",
     live: "https://trackin-app.netlify.app/",
-    tech: ["React", "Node.js", "MongoDB"],
+    tech: ["React", "Node.js", "Firebase"],
   },
   {
     id: "p3",
     title: "Password Generator",
-    desc: "A weather app using OpenWeather API that shows live weather conditions, forecasts, and location search.",
-    img: "/images/weather.png",
+    desc: "A sleek password generator app with copy-to-clipboard and password strength indicator features.",
+    img: passgenImg,
     repo: "https://github.com/mohitjaryal/passGenrator",
-    tech: ["React", "API", "TailwindCSS"],
+    live: "https://passgenapp.netlify.app/",
+    tech: ["React", "TailwindCSS"],
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative py-24 bg-gradient-to-b from-gray-950 via-black to-gray-950 text-white overflow-hidden">
+    <section
+      id="projects"
+      className="relative py-24 bg-gradient-to-b from-gray-950 via-black to-gray-950 text-white overflow-hidden"
+    >
+      {/* Gradient glows */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(124,58,237,0.15),transparent_70%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,211,238,0.15),transparent_70%)]" />
 
@@ -45,7 +54,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent"
         >
-          🚀 My Projects
+          🚀 Some of My Projects
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-8">
