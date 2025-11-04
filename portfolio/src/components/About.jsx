@@ -79,7 +79,7 @@ export default function About() {
               </p>
               <p>
                 <strong className="text-gray-200">⚙️ Tools I Love:</strong>{" "}
-                <span className="text-gray-400">VSCode, Git,Github</span>
+                <span className="text-gray-400">VSCode, Git, Github</span>
               </p>
             </div>
             <div className="mt-6 text-sm text-gray-400">
