@@ -28,10 +28,10 @@ const PROJECTS = [
   {
     id: "p3",
     title: "Password Generator",
-    desc: "A sleek password generator app with copy-to-clipboard and password strength indicator features.",
+    desc: "A secure and efficient password generator built using Python that creates strong, random passwords instantly.",
     img: passgenImg,
     repo: "https://github.com/mohitjaryal/passGenrator",
-    tech: ["React", "TailwindCSS"],
+    tech: ["Python", "Security", "CLI Tool"],
   },
 ];
 
@@ -90,14 +90,17 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  <a
-                    href={p.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-500 text-white font-semibold hover:shadow-[0_0_15px_rgba(124,58,237,0.4)] transition-all"
-                  >
-                    Live Demo
-                  </a>
+                  {/* 👇 Only show Live Demo if it exists */}
+                  {p.live && (
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-sm px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-500 text-white font-semibold hover:shadow-[0_0_15px_rgba(124,58,237,0.4)] transition-all"
+                    >
+                      Live Demo
+                    </a>
+                  )}
                   <a
                     href={p.repo}
                     target="_blank"
