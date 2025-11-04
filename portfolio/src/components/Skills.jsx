@@ -2,16 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const SKILLS = [
-  { name: "Python", level: "Intermediate", color: "from-blue-400 to-indigo-500" },
-  { name: "C++", level: "Intermediate", color: "from-blue-400 to-indigo-500" },
-  { name: "React", level: "Intermediate", color: "from-cyan-400 to-blue-500" },
-  { name: "JavaScript", level: "Intermediate", color: "from-yellow-400 to-orange-500" },
-  { name: "Tailwind CSS", level: "Intermediate", color: "from-teal-400 to-cyan-500" },
-  { name: "Node.js", level: "Intermediate", color: "from-green-400 to-emerald-500" },
-  { name: "Git & GitHub", level: "Basic", color: "from-gray-400 to-gray-500" },
-  { name: "MongoDB", level: "Learning", color: "from-green-400 to-lime-500" },
-  { name: "Figma", level: "Intermediate", color: "from-pink-400 to-rose-500" },
+  { name: "Python", color: "from-blue-400 to-indigo-500" },
+  { name: "C++", color: "from-blue-400 to-indigo-500" },
+  { name: "React", color: "from-cyan-400 to-blue-500" },
+  { name: "JavaScript", color: "from-yellow-400 to-orange-500" },
+  { name: "Tailwind CSS", color: "from-teal-400 to-cyan-500" },
+  { name: "Node.js", color: "from-green-400 to-emerald-500" },
+  { name: "Git & GitHub", color: "from-gray-400 to-gray-500" },
+  { name: "Figma", color: "from-pink-400 to-rose-500" },
 ];
+
 
 export default function Skills() {
   return (
