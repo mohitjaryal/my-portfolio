@@ -25,10 +25,8 @@ export default function Hero() {
 
           <p className="mt-4 text-lg text-gray-200 max-w-xl mx-auto md:mx-0 leading-relaxed">
             A{" "}
-            <span className="text-cyan-400 font-semibold">
-            Developer
-            </span>{" "}
-            who believes in using technology to solve real-world challenges. Loves 
+            <span className="text-cyan-400 font-semibold">Developer</span>{" "}
+            who believes in using technology to solve real-world challenges. Loves
             to create impactful digital solutions that make life
             easier, smarter, and more connected — learning every day, exploring{" "}
             <span className="text-purple-400 font-semibold">innovation</span>,
@@ -68,15 +66,18 @@ export default function Hero() {
           className="flex-1 flex justify-center"
         >
           <div className="relative group">
-            {/* Glow aura */}
-            <div className="absolute inset-0 rounded-full blur-3xl bg-gradient-to-tr from-purple-600 via-blue-500 to-cyan-400 opacity-40 group-hover:opacity-70 transition duration-700"></div>
+            {/* Subtle glow aura (softer & more natural) */}
+            <div className="absolute inset-0 rounded-full blur-2xl bg-gradient-to-tr from-purple-700 via-blue-500 to-cyan-400 opacity-25 group-hover:opacity-50 transition duration-700"></div>
 
-            <div className="relative rounded-3xl border border-gray-800 bg-gradient-to-b from-gray-900/70 to-gray-950/80 backdrop-blur-md overflow-hidden shadow-[0_0_40px_rgba(124,58,237,0.2)] hover:shadow-[0_0_60px_rgba(124,58,237,0.4)] transition-all duration-500 transform group-hover:-translate-y-1">
+            <div className="relative rounded-3xl border border-gray-800 bg-gradient-to-b from-gray-900/60 to-gray-950/80 backdrop-blur-sm overflow-hidden shadow-[0_0_30px_rgba(124,58,237,0.15)] hover:shadow-[0_0_45px_rgba(124,58,237,0.35)] transition-all duration-500 transform group-hover:-translate-y-1">
               <img
-               src={mohitImg}
-                alt="Your Portrait"
-                className="w-80 h-80 object-cover rounded-3xl grayscale hover:grayscale-0 transition-all duration-700"
+                src={mohitImg}
+                alt="Mohit Jaryal Portrait"
+                className="w-80 h-80 object-cover rounded-3xl brightness-90 contrast-105 saturate-110 transition-all duration-700 group-hover:brightness-100"
               />
+
+              {/* Soft overlay for realistic skin tone balance */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
             </div>
           </div>
         </motion.div>
