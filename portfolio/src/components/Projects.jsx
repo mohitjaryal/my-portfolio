@@ -12,7 +12,7 @@ const PROJECTS = [
     title: "Portfolio Website",
     desc: "My personal portfolio built with React, TailwindCSS, and Vite — showcasing my skills, projects, and contact form via EmailJS.",
     img: portfolioImg,
-    repo: "https://github.com/mohitjaryal/my-portfolio",
+    repo: "https://github.com/mohitjaryal",
     live: "https://your-portfolio-domain.com",
     tech: ["React", "Tailwind", "Vite"],
   },
@@ -107,7 +107,7 @@ export default function Projects() {
                     rel="noreferrer"
                     className="text-sm px-4 py-2 rounded-lg border border-gray-700 text-gray-300 hover:bg-gray-800 transition-all"
                   >
-                    GitHub Repo
+                    GitHub
                   </a>
                 </div>
               </div>
