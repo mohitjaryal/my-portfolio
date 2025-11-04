@@ -34,19 +34,27 @@ export default function About() {
               <span className="font-semibold text-purple-400">
                 Mohit Jaryal
               </span>
-              , a passionate{" "}
-              <span className="text-blue-400">
-                Developer
-              </span>{" "}
-              who loves building impactful digital solutions that solve
-              real-world problems. I focus on turning challenges into intuitive,
-              efficient, and meaningful web experiences that make a difference.
+              , a passionate <span className="text-blue-400">Developer</span>{" "}
+              who loves building impactful solutions that solve real-world
+              problems.
+              <br />I enjoy turning ideas into cool, meaningful creations —
+              blending creativity and logic to make things that truly leave an
+              impact.
             </p>
 
             <ul className="list-disc pl-6 text-gray-400 space-y-2">
-              <li>🌍 Believe technology should create impact — not just pixels on a screen</li>
-              <li>🧠 Constantly learning, growing, and challenging myself to think bigger</li>
-              <li>🔥 Thrive on challenges — from cool side projects to real-world impact</li>
+              <li>
+                🌍 Believe technology should create impact — not just pixels on
+                a screen
+              </li>
+              <li>
+                🧠 Constantly learning, growing, and challenging myself to think
+                bigger
+              </li>
+              <li>
+                🔥 Thrive on challenges — from cool side projects to real-world
+                impact
+              </li>
             </ul>
           </motion.div>
 
@@ -71,13 +79,12 @@ export default function About() {
               </p>
               <p>
                 <strong className="text-gray-200">⚙️ Tools I Love:</strong>{" "}
-                <span className="text-gray-400">
-                  VSCode, Git,Github
-                </span>
+                <span className="text-gray-400">VSCode, Git,Github</span>
               </p>
             </div>
             <div className="mt-6 text-sm text-gray-400">
-              ✨ The journey never ends — just new problems are waiting to be solved.
+              ✨ The journey never ends — just new problems are waiting to be
+              solved.
             </div>
           </motion.div>
         </div>
