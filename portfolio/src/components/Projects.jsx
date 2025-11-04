@@ -31,7 +31,6 @@ const PROJECTS = [
     desc: "A sleek password generator app with copy-to-clipboard and password strength indicator features.",
     img: passgenImg,
     repo: "https://github.com/mohitjaryal/passGenrator",
-    live: "https://passgenapp.netlify.app/",
     tech: ["React", "TailwindCSS"],
   },
 ];
