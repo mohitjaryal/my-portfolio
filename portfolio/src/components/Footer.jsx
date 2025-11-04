@@ -62,7 +62,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://x.com/mohitjaryal"
+            href="https://x.com/mohitjaryal04"
             target="_blank"
             rel="noreferrer"
             className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
