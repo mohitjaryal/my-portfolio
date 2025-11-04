@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const SKILLS = [
-  { name: "React", level: "Advanced", color: "from-cyan-400 to-blue-500" },
-  { name: "JavaScript (ES6+)", level: "Advanced", color: "from-yellow-400 to-orange-500" },
-  { name: "Tailwind CSS", level: "Advanced", color: "from-teal-400 to-cyan-500" },
+  { name: "Python", level: "Intermediate", color: "from-blue-400 to-indigo-500" },
+  { name: "C++", level: "Intermediate", color: "from-blue-400 to-indigo-500" },
+  { name: "React", level: "Intermediate", color: "from-cyan-400 to-blue-500" },
+  { name: "JavaScript", level: "Intermediate", color: "from-yellow-400 to-orange-500" },
+  { name: "Tailwind CSS", level: "Intermediate", color: "from-teal-400 to-cyan-500" },
   { name: "Node.js", level: "Intermediate", color: "from-green-400 to-emerald-500" },
-  { name: "TypeScript", level: "Learning", color: "from-blue-400 to-indigo-500" },
-  { name: "Git & GitHub", level: "Advanced", color: "from-gray-400 to-gray-500" },
-  { name: "Next.js", level: "Intermediate", color: "from-purple-400 to-pink-500" },
-  { name: "MongoDB", level: "Intermediate", color: "from-green-400 to-lime-500" },
+  { name: "Git & GitHub", level: "Basic", color: "from-gray-400 to-gray-500" },
+  { name: "MongoDB", level: "Learning", color: "from-green-400 to-lime-500" },
   { name: "Figma", level: "Intermediate", color: "from-pink-400 to-rose-500" },
 ];
 
