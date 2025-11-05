@@ -78,7 +78,7 @@ export default function About() {
                 <span className="text-gray-400">English, Hindi</span>
               </p>
               <p>
-                <strong className="text-gray-200">⚙️ Tools I Love:</strong>{" "}
+                <strong className="text-gray-200">⚙️ Tools:</strong>{" "}
                 <span className="text-gray-400">VSCode, Git, Github</span>
               </p>
             </div>
