@@ -4,7 +4,10 @@ import mohitImg from "../images/mohit.png";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-black py-28 text-white">
+    <section
+      id="hero"  // 👈 Yeh line add ki gayi hai
+      className="relative overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-black py-28 text-white"
+    >
       {/* Background glow gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(147,51,234,0.25),transparent_70%)]" />
 
@@ -47,14 +50,6 @@ export default function Hero() {
               📬 Contact Me
             </a>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1 }}
-            className="mt-8 text-gray-400 text-sm"
-          >
-          </motion.div>
         </motion.div>
 
         {/* Right Side: Image */}
@@ -65,7 +60,6 @@ export default function Hero() {
           className="flex-1 flex justify-center"
         >
           <div className="relative group">
-            {/* Subtle glow aura (softer & more natural) */}
             <div className="absolute inset-0 rounded-full blur-2xl bg-gradient-to-tr from-purple-700 via-blue-500 to-cyan-400 opacity-25 group-hover:opacity-50 transition duration-700"></div>
 
             <div className="relative rounded-3xl border border-gray-800 bg-gradient-to-b from-gray-900/60 to-gray-950/80 backdrop-blur-sm overflow-hidden shadow-[0_0_30px_rgba(124,58,237,0.15)] hover:shadow-[0_0_45px_rgba(124,58,237,0.35)] transition-all duration-500 transform group-hover:-translate-y-1">
@@ -74,8 +68,6 @@ export default function Hero() {
                 alt="Mohit Jaryal Portrait"
                 className="w-80 h-80 object-cover rounded-3xl brightness-90 contrast-105 saturate-110 transition-all duration-700 group-hover:brightness-100"
               />
-
-              {/* Soft overlay for realistic skin tone balance */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
             </div>
           </div>
