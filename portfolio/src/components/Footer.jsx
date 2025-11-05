@@ -32,48 +32,8 @@ export default function Footer() {
             <span className="font-semibold text-white">Mohit Jaryal</span> 
           </p>
         </motion.div>
-
-        {/* Social Icons */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex items-center gap-6 text-xl"
-        >
-          <a
-            href="https://github.com/mohitjaryal"
-            target="_blank"
-            rel="noreferrer"
-            className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
-            aria-label="GitHub"
-          >
-            <FaGithub size={22} />
-          </a>
-
-          <a
-            href="https://linkedin.com/in/mohitjaryal"
-            target="_blank"
-            rel="noreferrer"
-            className="text-gray-400 hover:text-[#0A66C2] hover:scale-110 transition-all duration-300"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin size={22} />
-          </a>
-
-          <a
-            href="https://x.com/mohitjaryal04"
-            target="_blank"
-            rel="noreferrer"
-            className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300"
-            aria-label="X (Twitter)"
-          >
-            <FaXTwitter size={22} />
-          </a>
-        </motion.div>
-      </div>
-
-      {/* Elegant bottom glow line */}
+          
+      </div> 
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[60%] h-[2px] bg-gradient-to-r from-transparent via-purple-500/40 to-transparent" />
     </footer>
   );
