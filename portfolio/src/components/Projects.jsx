@@ -13,7 +13,7 @@ const PROJECTS = [
     desc: "My personal portfolio built with React, TailwindCSS, and Vite — showcasing my skills, projects, and contact form via EmailJS.",
     img: portfolioImg,
     repo: "https://github.com/mohitjaryal",
-    live: "https://your-portfolio-domain.com",
+    live: "https://mohitjaryal.netlify.app",
     tech: ["React", "Tailwind", "Vite"],
   },
   {
