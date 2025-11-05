@@ -23,7 +23,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo / Name */}
+        {/* Logo */}
         <a
           href="#hero"
           className="text-2xl font-extrabold text-white tracking-tight hover:drop-shadow-[0_0_10px_rgba(147,51,234,0.8)] transition"
@@ -59,12 +59,6 @@ export default function Navbar() {
             <FaGithub size={22} />
           </a>
 
-            <a
-            href="https://x.com/mohitjaryal04"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden md:inline text-gray-300 hover:text-cyan-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
-          >
           <a
             href="https://linkedin.com/in/mohitjaryal"
             target="_blank"
@@ -73,6 +67,13 @@ export default function Navbar() {
           >
             <FaLinkedin size={22} />
           </a>
+
+          <a
+            href="https://x.com/mohitjaryal04"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-300 hover:text-cyan-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
+          >
             <FaXTwitter size={22} />
           </a>
         </div>
