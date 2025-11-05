@@ -36,10 +36,10 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex gap-8 text-gray-300 font-medium">
-          {["About", "Skills", "Projects", "Contact"].map((item) => (
+          {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`#${item.toLowerCase() === "home" ? "hero" : item.toLowerCase()}`}
               className="relative hover:text-white transition group"
             >
               {item}
