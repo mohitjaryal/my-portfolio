@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -75,6 +75,14 @@ export default function Navbar() {
             className="text-gray-300 hover:text-cyan-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
           >
             <FaXTwitter size={22} />
+          </a>
+
+          {/* Email Icon */}
+          <a
+            href="mailto:reach.mohitjaryal@gmail.com"
+            className="text-gray-300 hover:text-pink-400 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
+          >
+            <FaEnvelope size={22} />
           </a>
         </div>
       </div>
