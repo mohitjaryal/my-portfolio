@@ -1,12 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
 
 export default function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
 
-  // ✅ Replace with your real EmailJS credentials
+  // EmailJS credentials
   const SERVICE_ID = "service_2w93t7q";
   const TEMPLATE_ID = "template_b9blgf9";
   const PUBLIC_KEY = "4gqTRLG_3SsiiavoB";
@@ -110,6 +111,54 @@ export default function Contact() {
             </button>
           </div>
         </motion.form>
+
+        {/* Contact Info Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-12 text-center"
+        >
+          <h3 className="text-xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+            Or reach me directly 👇
+          </h3>
+
+          <div className="flex justify-center gap-6 text-2xl">
+            <a
+              href="mailto:reach.mohitjaryal@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-purple-400 transition-colors"
+            >
+              <FaEnvelope />
+            </a>
+            <a
+              href="https://linkedin.com/in/mohitjaryal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400 transition-colors"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://x.com/mohitjaryal04"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-400 transition-colors"
+            >
+              <FaXTwitter />
+            </a>
+            <a
+              href="https://github.com/mohitjaryal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
