@@ -9,7 +9,7 @@ const SKILLS = [
   { name: "Tailwind CSS", color: "from-teal-400 to-cyan-500" },
   { name: "Node.js", color: "from-green-400 to-emerald-500" },
   { name: "Git & GitHub", color: "from-gray-400 to-gray-500" },
-  { name: "Figma", color: "from-pink-400 to-rose-500" },
+  { name: "VS Code", color: "from-pink-400 to-rose-500" },
 ];
 
 
