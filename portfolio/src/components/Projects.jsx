@@ -90,7 +90,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  {/* 👇 Only show Live Demo if it exists */}
+                  {/* Only show Live Demo if it exists */}
                   {p.live && (
                     <a
                       href={p.live}
