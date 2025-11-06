@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// ✅ Import images from src/images folder
+// Import images from src/images folder
 import portfolioImg from "../images/portfolio.png";
 import qrappImg from "../images/qrapp.png";
 import passgenImg from "../images/passgenImg.png";
@@ -90,7 +90,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  {/* 👇 Only show Live Demo if it exists */}
+                  {/* Only show Live Demo if it exists */}
                   {p.live && (
                     <a
                       href={p.live}
