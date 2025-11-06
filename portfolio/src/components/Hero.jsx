@@ -5,7 +5,7 @@ import mohitImg from "../images/mohit.png";
 export default function Hero() {
   return (
     <section
-      id="hero"  // 👈 Yeh line add ki gayi hai
+      id="hero"  
       className="relative overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-black py-28 text-white"
     >
       {/* Background glow gradient */}
