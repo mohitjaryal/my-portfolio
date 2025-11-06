@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// ✅ Import images from src/images folder
+// Import images from src/images folder
 import portfolioImg from "../images/portfolio.png";
 import qrappImg from "../images/qrapp.png";
 import passgenImg from "../images/passgenImg.png";
