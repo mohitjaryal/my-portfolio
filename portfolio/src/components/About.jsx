@@ -71,7 +71,7 @@ export default function About() {
             <div className="text-gray-300 space-y-3">
               <p>
                 <strong className="text-gray-200">📍 Location:</strong>{" "}
-                <span className="text-gray-400">Chandigarh, India</span>
+                <span className="text-gray-400">India</span>
               </p>
               <p>
                 <strong className="text-gray-200">🌐 Languages:</strong>{" "}
