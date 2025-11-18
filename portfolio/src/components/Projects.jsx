@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // Import images from src/images folder
 import portfolioImg from "../images/portfolio.png";
 import qrappImg from "../images/qrapp.png";
-import passgenImg from "../images/passgenImg.png";
+import alarm from "../images/alarm.png";
 
 const PROJECTS = [
   {
@@ -29,7 +29,7 @@ const PROJECTS = [
     id: "p3",
     title: "Alarm Clock",
     desc: "A Python-based talking alarm clock that uses the OS module to deliver voice alerts — a fun and functional way to wake up with code!",
-    img: passgenImg,
+    img: alarm,
     repo: "https://github.com/mohitjaryal/alarmClock",
     tech: ["Python"],
   },
