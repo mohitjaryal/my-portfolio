@@ -27,10 +27,10 @@ const PROJECTS = [
   },
   {
     id: "p3",
-    title: "Password Generator",
-    desc: "A secure and efficient password generator built using Python that creates strong, random passwords instantly.",
+    title: "Alarm Clock",
+    desc: "A Python-based talking alarm clock that uses the OS module to deliver voice alerts — a fun and functional way to wake up with code!",
     img: passgenImg,
-    repo: "https://github.com/mohitjaryal/passGenrator",
+    repo: "https://github.com/mohitjaryal/alarmClock",
     tech: ["Python"],
   },
 ];
