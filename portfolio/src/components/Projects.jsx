@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // Import images from src/images folder
 import portfolioImg from "../images/portfolio.png";
 import qrappImg from "../images/qrapp.png";
-import alarm from "../images/alarm.png";
+import retroImg from "../images/retro-image.png"; // Correct import
 
 const PROJECTS = [
   {
@@ -27,11 +27,12 @@ const PROJECTS = [
   },
   {
     id: "p3",
-    title: "Alarm Clock",
-    desc: "A Python-based talking alarm clock that uses the OS module to deliver voice alerts — a fun and functional way to wake up with code!",
-    img: alarm,
-    repo: "https://github.com/mohitjaryal/alarmClock",
-    tech: ["Python"],
+    title: "Retro Lab",
+    desc: "A fun retro-style image editor built with React, TailwindCSS, and Canvas API — add retro filters, tilt, zoom, and captions to your photos.",
+    img: retroImg,
+    repo: "https://github.com/mohitjaryal/retro-image-converter",
+    live: "https://retro-image.netlify.app", // Live demo added
+    tech: ["React", "Tailwind", "Canvas API"],
   },
 ];
 
@@ -90,7 +91,6 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  {/* Only show Live Demo if it exists */}
                   {p.live && (
                     <a
                       href={p.live}
