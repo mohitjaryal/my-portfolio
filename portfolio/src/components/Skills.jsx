@@ -3,15 +3,17 @@ import { motion } from "framer-motion";
 
 const SKILLS = [
   { name: "Python", color: "from-blue-400 to-indigo-500" },
+  { name: "Numpy", color: "from-blue-400 to-indigo-500" },
+  { name: "Pandas", color: "from-blue-400 to-indigo-500" },
+  { name: "Matplotlib", color: "from-blue-400 to-indigo-500" },
+    { name: "Seaborn", color: "from-blue-400 to-indigo-500" },
   { name: "C++", color: "from-blue-400 to-indigo-500" },
   { name: "React", color: "from-cyan-400 to-blue-500" },
-  { name: "JavaScript", color: "from-yellow-400 to-orange-500" },
+  { name: "JavaScript", color: "from-cyan-400 to-blue-500" },
   { name: "Tailwind CSS", color: "from-teal-400 to-cyan-500" },
-  { name: "Node.js", color: "from-green-400 to-emerald-500" },
   { name: "Git & GitHub", color: "from-gray-400 to-gray-500" },
   { name: "VS Code", color: "from-pink-400 to-rose-500" },
 ];
-
 
 export default function Skills() {
   return (
@@ -19,7 +21,7 @@ export default function Skills() {
       id="skills"
       className="relative py-20 bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden"
     >
-      {/* glowing background accent */}
+      {/* glowing background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(147,51,234,0.15),transparent_70%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 md:px-10 text-center">
@@ -53,17 +55,6 @@ export default function Skills() {
               <h3 className="relative text-xl font-semibold text-white z-10">
                 {skill.name}
               </h3>
-              <p
-                className={`relative mt-2 text-sm font-medium ${
-                  skill.level === "Advanced"
-                    ? "text-green-400"
-                    : skill.level === "Intermediate"
-                    ? "text-yellow-400"
-                    : "text-gray-400"
-                }`}
-              >
-                {skill.level}
-              </p>
             </motion.div>
           ))}
         </div>
