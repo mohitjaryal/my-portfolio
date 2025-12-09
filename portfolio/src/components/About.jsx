@@ -35,7 +35,7 @@ export default function About() {
             <h3 className="text-xl font-semibold text-purple-400 mb-2">
               Hi, I'm Mohit Jaryal
             </h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-m">
               Tech Leader & Innovator with a vision to build impactful projects that inspire, educate, and drive real-world change.  
 Passionate about leveraging creativity and technology to empower others and shape the future.
 
