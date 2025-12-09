@@ -36,8 +36,9 @@ export default function About() {
               Hi, I'm Mohit Jaryal
             </h3>
             <p className="text-gray-400 text-sm">
-              Developer & Community Builder passionate about creating impactful projects that inspire, educate, and drive real-world change.  
-              I love combining creativity, technology, and collaboration to empower others.
+              Tech Leader & Innovator with a vision to build impactful projects that inspire, educate, and drive real-world change.  
+Passionate about leveraging creativity and technology to empower others and shape the future.
+
             </p>
 
             <h4 className="text-xl font-semibold text-white mb-2">🌟 Core Competencie</h4>
