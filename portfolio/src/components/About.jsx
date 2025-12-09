@@ -62,23 +62,23 @@ export default function About() {
                 <Globe size={20} /> SphereX Community
               </h4>
               <span className="text-xs text-green-400 font-semibold bg-green-900/30 px-2 py-0.5 rounded-full">
-                Dec 2025 – Present
+                December 2025 – Present
               </span>
             </div>
             <p className="text-gray-400 text-sm mb-2">
               Founder & CEO (Community Initiative)
             </p>
-            <p className="text-gray-400 text-xs mb-4">
+            <p className="text-gray-400 text-m mb-4">
               Building and leading a tech-driven community connecting innovators, students, and enthusiasts through workshops, webinars, and collaborative projects globally.
             </p>
 
-            <h4 className="text-xl font-semibold text-white mb-2">🌟 Achievements</h4>
+            {/* <h4 className="text-xl font-semibold text-white mb-2">🌟 Achievements</h4>
             <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
               <li>Onboarded 50+ active community members</li>
               <li>Organized multiple webinars & tech workshops</li>
               <li>Mentored students & enthusiasts on tech innovation</li>
               <li>Created impactful projects blending creativity and technology</li>
-            </ul>
+            </ul> */}
 
             <div className="flex items-center gap-4 mt-4">
               <a
