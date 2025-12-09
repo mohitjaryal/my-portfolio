@@ -40,7 +40,7 @@ export default function About() {
               I love combining creativity, technology, and collaboration to empower others.
             </p>
 
-            <h4 className="text-xl font-semibold text-white mb-2">🌟 Personal Skills</h4>
+            <h4 className="text-xl font-semibold text-white mb-2">🌟 Core Competencie</h4>
             <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
               <li>Web Development with React & Node.js</li>
               <li>UI/UX Design & TailwindCSS</li>
