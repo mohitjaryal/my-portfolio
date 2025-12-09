@@ -24,74 +24,63 @@ export default function About() {
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Left: Personal & Experience */}
+          {/* Left: Personal Info */}
           <motion.div
             initial={{ x: -30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-gray-300"
+            className="text-gray-300 space-y-6"
           >
-            {/* Personal Intro */}
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold text-purple-400 mb-2">Hi, I'm Mohit Jaryal</h3>
-              <p className="text-gray-400 text-sm">
-                Developer & Community Builder passionate about creating projects that inspire, educate, and leave an impact.
-              </p>
-            </div>
+            <h3 className="text-xl font-semibold text-purple-400 mb-2">Hi, I'm Mohit Jaryal</h3>
+            <p className="text-gray-400 text-sm">
+              Developer & Community Builder passionate about creating projects that inspire, educate, and make an impact.  
+              I enjoy combining creativity, technology, and collaboration to make meaningful change.
+            </p>
 
-            {/* Founder Experience */}
-            <div className="bg-gray-900/80 backdrop-blur-md rounded-2xl p-6 shadow-lg mb-6">
-              <h4 className="text-indigo-400 font-semibold flex items-center gap-2 mb-1">
-                <Globe size={20} /> SphereX Community
-              </h4>
-              <p className="text-gray-400 text-sm mb-2">Founder & CEO (Community Initiative)</p>
-              <p className="text-gray-400 text-xs mb-3">
-                Connecting innovators and students through workshops, webinars, and collaborative projects globally.
-              </p>
-              <div className="flex items-center gap-4">
-                <a href="mailto:spherexcommunity@gmail.com" className="text-indigo-400 hover:text-indigo-300 transition-colors">
-                  <Mail size={20} />
-                </a>
-                <a href="https://www.linkedin.com/in/mohitjaryal" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
-                  <Linkedin size={20} />
-                </a>
-                <a href="https://spherexcommunity.netlify.app" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
-                  <Globe size={20} />
-                </a>
-              </div>
-            </div>
-
-            {/* Skills */}
-            <div>
-              <h4 className="text-xl font-semibold text-white mb-2">🌟 Skills & Achievements</h4>
-              <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
-                <li>React, TailwindCSS, Node.js, Git & GitHub</li>
-                <li>Webinars & workshops organization</li>
-                <li>Mentoring students & enthusiasts</li>
-                <li>Building impactful community projects</li>
-              </ul>
-            </div>
+            <h4 className="text-xl font-semibold text-white mb-2">🌟 Personal Skills</h4>
+            <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
+              <li>Web Development with React & Node.js</li>
+              <li>UI/UX Design & TailwindCSS</li>
+              <li>Community Building & Mentorship</li>
+              <li>Problem Solving & Innovation</li>
+            </ul>
           </motion.div>
 
-          {/* Right: Quick Facts */}
+          {/* Right: SphereX Experience */}
           <motion.div
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="glass p-8 rounded-2xl border border-gray-800 shadow-xl hover:shadow-purple-900/30 transition"
+            className="bg-gray-900/80 backdrop-blur-md rounded-2xl p-6 shadow-xl"
           >
-            <h4 className="text-2xl font-semibold mb-4 text-white">
-              Quick <span className="text-purple-400">Facts</span>
+            <h4 className="text-indigo-400 font-semibold flex items-center gap-2 mb-2">
+              <Globe size={20} /> SphereX Community
             </h4>
-            <div className="text-gray-300 space-y-2 text-sm">
-              <p>📍 Location: India</p>
-              <p>🌐 Languages: English, Hindi</p>
-              <p>💡 Interests: Web Development, AI, Community Building</p>
-            </div>
-            <div className="mt-6 text-gray-400 text-xs">
-              ✨ Driven to innovate, inspire, and create opportunities for the next generation of changemakers.
+            <p className="text-gray-400 text-sm mb-2">Founder & CEO (Community Initiative)</p>
+            <p className="text-gray-400 text-xs mb-4">
+              Built a tech-driven community connecting innovators, students, and enthusiasts through workshops, webinars, and collaborative projects globally.
+            </p>
+
+            <h4 className="text-xl font-semibold text-white mb-2">🌟 Achievements</h4>
+            <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
+              <li>Onboarded 50+ active community members</li>
+              <li>Organized webinars & tech workshops with experts</li>
+              <li>Mentored students & enthusiasts on tech projects</li>
+              <li>Created impactful projects that blend creativity and technology</li>
+            </ul>
+
+            <div className="flex items-center gap-4 mt-4">
+              <a href="mailto:spherexcommunity@gmail.com" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+                <Mail size={20} />
+              </a>
+              <a href="https://www.linkedin.com/in/mohitjaryal" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href="https://spherexcommunity.netlify.app" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+                <Globe size={20} />
+              </a>
             </div>
           </motion.div>
         </div>
