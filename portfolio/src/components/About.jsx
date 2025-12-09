@@ -42,7 +42,7 @@ Passionate about leveraging creativity and technology to empower others and shap
             </p>
 
             <h4 className="text-xl font-semibold text-white mb-2">🌟 Core Competencie</h4>
-            <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
+            <ul className="list-disc pl-5 text-gray-400 space-y-1 text-m">
               <li>Visionary Leadership & Strategic Direction</li>
               <li>UI/UX Design & TailwindCSS</li>
               <li>Web Development</li>
