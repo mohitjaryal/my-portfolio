@@ -43,8 +43,9 @@ Passionate about leveraging creativity and technology to empower others and shap
 
             <h4 className="text-xl font-semibold text-white mb-2">🌟 Core Competencie</h4>
             <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
-              <li>Web Development with React & Node.js</li>
+              <li>Visionary Leadership & Strategic Direction</li>
               <li>UI/UX Design & TailwindCSS</li>
+              <li>Web Development</li>
               <li>Community Building & Mentorship</li>
               <li>Problem Solving & Innovation</li>
             </ul>
