@@ -9,7 +9,7 @@ export default function About() {
       className="py-20 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden"
     >
       {/* Background Glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(124,58,237,0.1),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(124,58,237,0.15),transparent_60%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 md:px-10">
         {/* Section Title */}
@@ -32,10 +32,12 @@ export default function About() {
             viewport={{ once: true }}
             className="text-gray-300 space-y-6"
           >
-            <h3 className="text-xl font-semibold text-purple-400 mb-2">Hi, I'm Mohit Jaryal</h3>
+            <h3 className="text-xl font-semibold text-purple-400 mb-2">
+              Hi, I'm Mohit Jaryal
+            </h3>
             <p className="text-gray-400 text-sm">
-              Developer & Community Builder passionate about creating projects that inspire, educate, and make an impact.  
-              I enjoy combining creativity, technology, and collaboration to make meaningful change.
+              Developer & Community Builder passionate about creating impactful projects that inspire, educate, and drive real-world change.  
+              I love combining creativity, technology, and collaboration to empower others.
             </p>
 
             <h4 className="text-xl font-semibold text-white mb-2">🌟 Personal Skills</h4>
@@ -53,32 +55,52 @@ export default function About() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-gray-900/80 backdrop-blur-md rounded-2xl p-6 shadow-xl"
+            className="bg-gray-900/80 backdrop-blur-md rounded-2xl p-6 shadow-xl hover:shadow-purple-900/50 transition-all duration-300"
           >
-            <h4 className="text-indigo-400 font-semibold flex items-center gap-2 mb-2">
-              <Globe size={20} /> SphereX Community
-            </h4>
-            <p className="text-gray-400 text-sm mb-2">Founder & CEO (Community Initiative)</p>
+            <div className="flex items-center justify-between mb-2">
+              <h4 className="text-indigo-400 font-semibold flex items-center gap-2">
+                <Globe size={20} /> SphereX Community
+              </h4>
+              <span className="text-xs text-green-400 font-semibold bg-green-900/30 px-2 py-0.5 rounded-full">
+                Dec 2025 – Present
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm mb-2">
+              Founder & CEO (Community Initiative)
+            </p>
             <p className="text-gray-400 text-xs mb-4">
-              Built a tech-driven community connecting innovators, students, and enthusiasts through workshops, webinars, and collaborative projects globally.
+              Building and leading a tech-driven community connecting innovators, students, and enthusiasts through workshops, webinars, and collaborative projects globally.
             </p>
 
             <h4 className="text-xl font-semibold text-white mb-2">🌟 Achievements</h4>
             <ul className="list-disc pl-5 text-gray-400 space-y-1 text-sm">
               <li>Onboarded 50+ active community members</li>
-              <li>Organized webinars & tech workshops with experts</li>
-              <li>Mentored students & enthusiasts on tech projects</li>
-              <li>Created impactful projects that blend creativity and technology</li>
+              <li>Organized multiple webinars & tech workshops</li>
+              <li>Mentored students & enthusiasts on tech innovation</li>
+              <li>Created impactful projects blending creativity and technology</li>
             </ul>
 
             <div className="flex items-center gap-4 mt-4">
-              <a href="mailto:spherexcommunity@gmail.com" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+              <a
+                href="mailto:spherexcommunity@gmail.com"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
                 <Mail size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/mohitjaryal" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+              <a
+                href="https://www.linkedin.com/in/mohitjaryal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="https://spherexcommunity.netlify.app" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+              <a
+                href="https://spherexcommunity.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
                 <Globe size={20} />
               </a>
             </div>
